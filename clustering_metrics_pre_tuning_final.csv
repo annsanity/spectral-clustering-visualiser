@@ -1,0 +1,295 @@
+Algorithm,Attribute,Region,Visual Type,Num Clusters,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Index,Optimal Clusters
+kmeans,foreign_inflow,World,graph_2,4,0.822564101,0.197437247,7943.17157,N/A
+unnormalized_spec,all,Asia,graph_2,4,-0.329982513,2.086987715,0.556809015,7
+unnormalized_spec,all,Africa,graph_2,4,-0.147712238,2.022671422,4.909094983,4
+unnormalized_spec,all,Europe,graph_2,4,-0.302276692,2.115736106,2.384985116,6
+unnormalized_spec,all,North America,graph_2,4,-0.354950659,1.208008352,0.851021049,3
+unnormalized_spec,all,South America,graph_2,4,-0.288937788,2.009109451,2.338043526,2
+unnormalized_spec,all,Oceania,graph_2,4,-0.186670528,0.858181439,1.902865417,4
+kmeans,remittance_inflow,World,graph_2,4,0.683884811,0.491694406,689.5643405,N/A
+unnormalized_spec,remittance_inflow,Asia,graph_2,4,0.291988716,0.70334688,49.06580194,6
+unnormalized_spec,remittance_inflow,Africa,graph_2,4,0.465039693,0.547504753,67.24454195,4
+unnormalized_spec,remittance_inflow,Europe,graph_2,4,0.514213425,0.487727131,88.29583291,5
+unnormalized_spec,remittance_inflow,North America,graph_2,4,0.490947013,0.491255372,20.0666678,2
+unnormalized_spec,remittance_inflow,South America,graph_2,4,0.404436415,0.37750942,57.35095942,2
+unnormalized_spec,remittance_inflow,Oceania,graph_2,4,0.104413998,1.218576497,1.977964539,2
+kmeans,dev_assistance,World,graph_2,4,0.656287918,0.522171173,899.6132885,N/A
+unnormalized_spec,priv_capital_flow,Asia,graph_2,4,0.216739084,1.067871278,38.17936095,6
+unnormalized_spec,priv_capital_flow,Africa,graph_2,4,0.319571951,1.602325715,5.991216621,4
+unnormalized_spec,priv_capital_flow,Europe,graph_2,4,0.119831059,2.556155953,1.096197439,3
+unnormalized_spec,priv_capital_flow,North America,graph_2,4,0.554636773,0.441423345,59.73293195,3
+unnormalized_spec,priv_capital_flow,South America,graph_2,4,-0.291771352,1.90678255,48.27921167,2
+unnormalized_spec,priv_capital_flow,Oceania,graph_2,4,-0.344181765,1.070038448,3.662150558,2
+kmeans,priv_capital_flow,World,graph_2,4,0.573541683,0.453227053,465.1135646,N/A
+unnormalized_spec,dev_assistance,Asia,graph_2,4,0.313889611,0.811077736,25.05597525,10
+unnormalized_spec,dev_assistance,Africa,graph_2,4,0.513623511,0.509760357,55.21408841,5
+unnormalized_spec,dev_assistance,Europe,graph_2,4,0.374137882,0.710637945,20.65314667,4
+unnormalized_spec,dev_assistance,North America,graph_2,4,0.461276764,0.347647411,114.1785193,4
+unnormalized_spec,dev_assistance,South America,graph_2,4,0.044058303,0.919743976,61.49120558,3
+unnormalized_spec,dev_assistance,Oceania,graph_2,4,0.145880664,5.482811203,2.968031533,3
+kmeans,hdi_rank,World,graph_2,4,0.564565274,0.499253396,925.5851881,N/A
+unnormalized_spec,foreign_inflow,Asia,graph_2,4,-0.152609316,1.6851104,21.94852649,32
+unnormalized_spec,foreign_inflow,Africa,graph_2,4,-0.234182423,3.806868001,1.145399779,38
+unnormalized_spec,foreign_inflow,Europe,graph_2,4,-0.313351633,4.900457119,431.3420601,28
+unnormalized_spec,foreign_inflow,North America,graph_2,4,-0.509331992,6.98618693,0.21940565,13
+unnormalized_spec,foreign_inflow,South America,graph_2,4,-0.368880534,3.639722713,84.87268901,2
+unnormalized_spec,foreign_inflow,Oceania,graph_2,4,-0.376735292,5.230948947,0.040771429,4
+kmeans,export_import,World,graph_2,4,0.564090623,0.509718502,413.3827533,N/A
+unnormalized_spec,export_import,Asia,graph_2,4,0.418304072,0.675032825,35.02433898,3
+unnormalized_spec,export_import,Africa,graph_2,4,0.334080099,0.699810978,32.16982055,4
+unnormalized_spec,export_import,Europe,graph_2,4,0.450872634,0.621080674,45.40196467,4
+unnormalized_spec,export_import,North America,graph_2,4,0.498543484,0.493201946,48.72115615,2
+unnormalized_spec,export_import,South America,graph_2,4,0.344007096,0.253016701,11.03811085,2
+unnormalized_spec,export_import,Oceania,graph_2,4,0.659329736,0.155271379,107.7684869,1
+normalized_spec_ngjordanweiss,remittance_inflow,World,graph_2,4,0.56348499,0.631141851,274.9720086,6
+unnormalized_spec,hdi_rank,Asia,graph_2,4,0.403440917,3.110069895,30.97025412,3
+unnormalized_spec,hdi_rank,Africa,graph_2,4,0.488972998,0.522637693,134.2767951,6
+unnormalized_spec,hdi_rank,Europe,graph_2,4,0.510251109,0.525554692,131.3058728,3
+unnormalized_spec,hdi_rank,North America,graph_2,4,0.101431739,2.415923915,2.49964185,2
+unnormalized_spec,hdi_rank,South America,graph_2,4,0.280345799,0.677883793,4.392770476,2
+unnormalized_spec,hdi_rank,Oceania,graph_2,4,-0.374983255,13.74689682,1.096311703,2
+normalized_spec_shimalik,hdi_rank,World,graph_2,4,0.550448556,0.50187912,821.5761679,3
+normalized_spec_shimalik,all,Asia,graph_2,4,0.066614878,1.879219352,12.30504135,4
+normalized_spec_shimalik,all,Africa,graph_2,4,-0.007102378,1.933969761,8.689011417,2
+normalized_spec_shimalik,all,Europe,graph_2,4,-0.074303441,2.489697262,3.067264166,3
+normalized_spec_shimalik,all,North America,graph_2,4,-0.142971712,3.360491147,3.673301646,2
+normalized_spec_shimalik,all,South America,graph_2,4,-0.172679459,4.243631358,2.187747605,2
+normalized_spec_shimalik,all,Oceania,graph_2,4,-0.166024247,2.134915961,1.090084612,1
+normalized_spec_ngjordanweiss,hdi_rank,World,graph_2,4,0.530793898,0.498619465,790.9500189,4
+normalized_spec_shimalik,remittance_inflow,Asia,graph_2,4,0.291988716,0.70334688,49.06580194,4
+normalized_spec_shimalik,remittance_inflow,Africa,graph_2,4,0.459275354,0.542241452,66.57225709,6
+normalized_spec_shimalik,remittance_inflow,Europe,graph_2,4,0.480416188,0.489945716,88.07782405,4
+normalized_spec_shimalik,remittance_inflow,North America,graph_2,4,0.385045771,0.529407623,14.12613778,2
+normalized_spec_shimalik,remittance_inflow,South America,graph_2,4,0.348808733,0.803729851,34.82797258,2
+normalized_spec_shimalik,remittance_inflow,Oceania,graph_2,4,0.073468785,0.761475111,1.822948467,2
+unnormalized_spec,hdi_rank,World,graph_2,4,0.509622331,0.497967578,702.6694386,4
+normalized_spec_shimalik,priv_capital_flow,Asia,graph_2,4,0.35509928,0.610906585,39.55450878,4
+normalized_spec_shimalik,priv_capital_flow,Africa,graph_2,4,0.399714008,2.177172558,6.146120954,3
+normalized_spec_shimalik,priv_capital_flow,Europe,graph_2,4,0.203238132,2.808625429,1.108231955,3
+normalized_spec_shimalik,priv_capital_flow,North America,graph_2,4,0.442219653,0.609929183,42.18755647,4
+normalized_spec_shimalik,priv_capital_flow,South America,graph_2,4,-0.232713262,59.24110576,51.43296191,1
+normalized_spec_shimalik,priv_capital_flow,Oceania,graph_2,4,-0.210941292,15.4257936,1.69519325,11
+normalized_spec_ngjordanweiss,export_import,World,graph_2,4,0.431687415,0.643001731,126.2479243,5
+normalized_spec_shimalik,dev_assistance,Asia,graph_2,4,0.166164798,1.586724694,7.547002918,5
+normalized_spec_shimalik,dev_assistance,Africa,graph_2,4,0.462052859,0.577337668,49.82611239,4
+normalized_spec_shimalik,dev_assistance,Europe,graph_2,4,0.349416205,0.65009845,27.76669614,3
+normalized_spec_shimalik,dev_assistance,North America,graph_2,4,0.551992801,0.350853232,121.8228791,3
+normalized_spec_shimalik,dev_assistance,South America,graph_2,4,-0.132455515,1.617800743,8.18796395,11
+normalized_spec_shimalik,dev_assistance,Oceania,graph_2,4,0.145880664,5.482811203,2.968031533,3
+kmeans,all,World,graph_2,4,0.355247138,0.995507207,91.488217,N/A
+normalized_spec_shimalik,foreign_inflow,Asia,graph_2,4,-0.135568008,57.5411554,3.159694611,2
+normalized_spec_shimalik,foreign_inflow,Africa,graph_2,4,0.011983364,5.14094929,35.3457182,2
+normalized_spec_shimalik,foreign_inflow,Europe,graph_2,4,-0.210686323,164.3970091,0.964231009,41
+normalized_spec_shimalik,foreign_inflow,North America,graph_2,4,-0.252615791,85.34798434,0.11492398,22
+normalized_spec_shimalik,foreign_inflow,South America,graph_2,4,-0.325202803,2.896055313,1.870686557,11
+normalized_spec_shimalik,foreign_inflow,Oceania,graph_2,4,-0.425244085,14.79539479,0.109569151,11
+unnormalized_spec,priv_capital_flow,World,graph_2,4,0.321557917,3.237364538,9.052211022,6
+normalized_spec_shimalik,export_import,Asia,graph_2,4,0.409018439,0.687470613,20.68157388,4
+normalized_spec_shimalik,export_import,Africa,graph_2,4,0.360193132,0.599223487,32.98676519,4
+normalized_spec_shimalik,export_import,Europe,graph_2,4,0.34955457,0.61666974,21.24683975,5
+normalized_spec_shimalik,export_import,North America,graph_2,4,0.27541741,14.30308457,1.784542193,2
+normalized_spec_shimalik,export_import,South America,graph_2,4,-0.083480608,2.72971316,1.810060257,2
+normalized_spec_shimalik,export_import,Oceania,graph_2,4,0.659329736,0.155271379,107.7684869,2
+normalized_spec_ngjordanweiss,priv_capital_flow,World,graph_2,4,0.306378595,2.963781834,9.079855868,6
+normalized_spec_shimalik,hdi_rank,Asia,graph_2,4,0.406986139,1.743771312,32.22717187,2
+normalized_spec_shimalik,hdi_rank,Africa,graph_2,4,0.529942031,0.500821771,120.9759207,4
+normalized_spec_shimalik,hdi_rank,Europe,graph_2,4,0.525623704,0.490101885,98.61983302,4
+normalized_spec_shimalik,hdi_rank,North America,graph_2,4,0.321181382,3.095591437,1.87206955,2
+normalized_spec_shimalik,hdi_rank,South America,graph_2,4,0.317684503,3.303994798,5.259727261,1
+normalized_spec_shimalik,hdi_rank,Oceania,graph_2,4,0.163905815,0.645204155,5.426354546,2
+normalized_spec_ngjordanweiss,foreign_inflow,World,graph_2,4,0.223230156,7.37257953,4.573434729,187
+normalized_spec_ngjordanweiss,all,Asia,graph_2,4,-0.023180492,3.083276074,5.430931877,7
+normalized_spec_ngjordanweiss,all,Africa,graph_2,4,0.077814562,1.739592037,12.04485106,4
+normalized_spec_ngjordanweiss,all,Europe,graph_2,4,-0.059669067,4.12765811,2.955517082,6
+normalized_spec_ngjordanweiss,all,North America,graph_2,4,-0.357699526,5.116086259,0.784438674,3
+normalized_spec_ngjordanweiss,all,South America,graph_2,4,-0.190034713,3.826999829,1.811808368,2
+normalized_spec_ngjordanweiss,all,Oceania,graph_2,4,-0.252890504,3.364129638,0.928066921,4
+normalized_spec_shimalik,export_import,World,graph_2,4,0.211008456,1.099525101,93.93062706,7
+normalized_spec_ngjordanweiss,remittance_inflow,Asia,graph_2,4,0.289668658,0.710818971,38.43306211,6
+normalized_spec_ngjordanweiss,remittance_inflow,Africa,graph_2,4,0.528494272,0.53260244,71.93870735,6
+normalized_spec_ngjordanweiss,remittance_inflow,Europe,graph_2,4,0.514213425,0.487727131,88.29583291,5
+normalized_spec_ngjordanweiss,remittance_inflow,North America,graph_2,4,0.385045771,0.529407623,14.12613778,2
+normalized_spec_ngjordanweiss,remittance_inflow,South America,graph_2,4,-0.342622554,1.779963838,5.565821371,2
+normalized_spec_ngjordanweiss,remittance_inflow,Oceania,graph_2,4,0.36067334,0.708827653,9.953341416,2
+unnormalized_spec,export_import,World,graph_2,4,0.13727379,99.18768949,111.0004409,5
+normalized_spec_ngjordanweiss,priv_capital_flow,Asia,graph_2,4,0.389326963,0.571481155,97.07434864,6
+normalized_spec_ngjordanweiss,priv_capital_flow,Africa,graph_2,4,0.319646454,1.619126101,6.004625025,4
+normalized_spec_ngjordanweiss,priv_capital_flow,Europe,graph_2,4,0.208828387,2.78533608,1.109601848,3
+normalized_spec_ngjordanweiss,priv_capital_flow,North America,graph_2,4,0.442219653,0.609929183,42.18755647,4
+normalized_spec_ngjordanweiss,priv_capital_flow,South America,graph_2,4,-0.009102033,2.420728752,3.001495979,2
+normalized_spec_ngjordanweiss,priv_capital_flow,Oceania,graph_2,4,-0.191273097,28.15000225,0.138819617,2
+normalized_spec_shimalik,priv_capital_flow,World,graph_2,4,0.102155412,5.618873102,4.293476049,4
+normalized_spec_ngjordanweiss,dev_assistance,Asia,graph_2,4,0.313889611,0.811077736,25.05597525,10
+normalized_spec_ngjordanweiss,dev_assistance,Africa,graph_2,4,0.440984788,0.570831251,52.6402682,4
+normalized_spec_ngjordanweiss,dev_assistance,Europe,graph_2,4,0.456601833,0.732983036,21.67548233,4
+normalized_spec_ngjordanweiss,dev_assistance,North America,graph_2,4,0.384800552,0.788338059,12.87988341,5
+normalized_spec_ngjordanweiss,dev_assistance,South America,graph_2,4,-0.329607588,76957606.54,0.444178198,2
+normalized_spec_ngjordanweiss,dev_assistance,Oceania,graph_2,4,0.286247231,1.782860675,4.746116682,3
+normalized_spec_ngjordanweiss,dev_assistance,World,graph_2,4,0.084811963,0.697031174,147.5240172,8
+normalized_spec_ngjordanweiss,foreign_inflow,Asia,graph_2,4,-0.032792284,22.0933414,5.451840221,32
+normalized_spec_ngjordanweiss,foreign_inflow,Africa,graph_2,4,-0.222310353,5.876729785,1.163688173,38
+normalized_spec_ngjordanweiss,foreign_inflow,Europe,graph_2,4,-0.294900092,5.876766663,2.703531383,28
+normalized_spec_ngjordanweiss,foreign_inflow,North America,graph_2,4,-0.404245936,4.927020689,0.236015039,13
+normalized_spec_ngjordanweiss,foreign_inflow,South America,graph_2,4,-0.515053934,26.66347464,0.694072823,2
+normalized_spec_ngjordanweiss,foreign_inflow,Oceania,graph_2,4,-0.322115756,13.37232895,0.815919716,10
+unnormalized_spec,all,World,graph_2,4,0.074963373,2.633721433,29.73308646,3
+normalized_spec_ngjordanweiss,export_import,Asia,graph_2,4,0.435897249,0.657195588,35.03558053,3
+normalized_spec_ngjordanweiss,export_import,Africa,graph_2,4,0.396282128,0.672097244,34.96389378,4
+normalized_spec_ngjordanweiss,export_import,Europe,graph_2,4,0.349538256,0.613147768,20.00064579,5
+normalized_spec_ngjordanweiss,export_import,North America,graph_2,4,0.27541741,14.30308457,1.784542193,2
+normalized_spec_ngjordanweiss,export_import,South America,graph_2,4,0.065682943,0.565868431,7.720788731,2
+normalized_spec_ngjordanweiss,export_import,Oceania,graph_2,4,0.128195477,1.466499436,1.580318248,1
+normalized_spec_shimalik,remittance_inflow,World,graph_2,4,0.056518797,3.079815493,32.99101182,7
+normalized_spec_ngjordanweiss,hdi_rank,Asia,graph_2,4,0.219127472,4.000561525,6.197065747,3
+normalized_spec_ngjordanweiss,hdi_rank,Africa,graph_2,4,0.472232072,0.535797472,117.8787783,5
+normalized_spec_ngjordanweiss,hdi_rank,Europe,graph_2,4,0.500144483,0.532510038,122.1056352,3
+normalized_spec_ngjordanweiss,hdi_rank,North America,graph_2,4,0.321181382,3.095591437,1.87206955,2
+normalized_spec_ngjordanweiss,hdi_rank,South America,graph_2,4,0.317684503,3.303994798,5.259727261,1
+normalized_spec_ngjordanweiss,hdi_rank,Oceania,graph_2,4,0.087397175,13.78061986,1.683005584,2
+normalized_spec_shimalik,dev_assistance,World,graph_2,4,0.05487592,1.675266252,15.25124956,6
+kmeans,all,Asia,graph_2,4,0.385296826,0.859838584,29.45104517,N/A
+kmeans,all,Africa,graph_2,4,0.229814574,1.250836468,25.16687393,N/A
+kmeans,all,Europe,graph_2,4,0.338972595,0.529244019,27.19464879,N/A
+kmeans,all,North America,graph_2,4,0.439769407,0.490657863,31.04778076,N/A
+kmeans,all,South America,graph_2,4,0.47325569,0.506787225,26.92456274,N/A
+kmeans,all,Oceania,graph_2,4,0.419241806,0.543473024,9.711087283,N/A
+normalized_spec_ngjordanweiss,all,World,graph_2,4,0.046087255,2.497915798,31.19517001,3
+kmeans,remittance_inflow,Asia,graph_2,4,0.69659238,0.379276293,389.3256503,N/A
+kmeans,remittance_inflow,Africa,graph_2,4,0.59239699,0.426225556,210.3762181,N/A
+kmeans,remittance_inflow,Europe,graph_2,4,0.670312339,0.33340007,223.6108637,N/A
+kmeans,remittance_inflow,North America,graph_2,4,0.6841164,0.197705621,100.0310623,N/A
+kmeans,remittance_inflow,South America,graph_2,4,0.775121126,0.173678007,597.2598858,N/A
+kmeans,remittance_inflow,Oceania,graph_2,4,0.620491445,0.266325816,141.8346194,N/A
+normalized_spec_shimalik,all,World,graph_2,4,0.044583915,1.832403604,37.54083631,4
+kmeans,priv_capital_flow,Asia,graph_2,4,0.597798606,0.411890437,102.0000341,N/A
+kmeans,priv_capital_flow,Africa,graph_2,4,0.586238226,0.435300874,130.8512707,N/A
+kmeans,priv_capital_flow,Europe,graph_2,4,0.480365966,0.456321065,295.5187196,N/A
+kmeans,priv_capital_flow,North America,graph_2,4,0.57064681,0.321894507,41.70935861,N/A
+kmeans,priv_capital_flow,South America,graph_2,4,0.530434027,0.263928712,517.3936195,N/A
+kmeans,priv_capital_flow,Oceania,graph_2,4,0.559063807,0.335987456,36.29184269,N/A
+unnormalized_spec,remittance_inflow,World,graph_2,4,0.023606608,179.2522203,119.0497109,6
+kmeans,dev_assistance,Asia,graph_2,4,0.690592342,0.522859752,198.4196919,N/A
+kmeans,dev_assistance,Africa,graph_2,4,0.586142036,0.420225474,207.5146675,N/A
+kmeans,dev_assistance,Europe,graph_2,4,0.590524332,0.378468299,134.5155114,N/A
+kmeans,dev_assistance,North America,graph_2,4,0.667070039,0.215288856,187.1438822,N/A
+kmeans,dev_assistance,South America,graph_2,4,0.651638793,0.154701994,486.0654364,N/A
+kmeans,dev_assistance,Oceania,graph_2,4,0.653542186,0.257351099,114.078408,N/A
+unnormalized_spec,dev_assistance,World,graph_2,4,-0.139033754,1.150576637,118.6181938,9
+kmeans,foreign_inflow,Asia,graph_2,4,0.648621157,0.385524965,214.0145459,N/A
+kmeans,foreign_inflow,Africa,graph_2,4,0.548107629,0.393216137,282.6903368,N/A
+kmeans,foreign_inflow,Europe,graph_2,4,0.588881367,0.35497413,4044.936707,N/A
+kmeans,foreign_inflow,North America,graph_2,4,0.566297632,0.522137563,87.2347897,N/A
+kmeans,foreign_inflow,South America,graph_2,4,0.405800385,0.375425281,654.1223809,N/A
+kmeans,foreign_inflow,Oceania,graph_2,4,0.521227587,0.353407879,41.02892526,N/A
+normalized_spec_shimalik,foreign_inflow,World,graph_2,4,-0.183946494,10.70425234,1.484773941,8
+kmeans,export_import,Asia,graph_2,4,0.551127907,0.494101225,205.1012859,N/A
+kmeans,export_import,Africa,graph_2,4,0.565841165,0.390683876,240.1768756,N/A
+kmeans,export_import,Europe,graph_2,4,0.572868699,0.387175449,134.0675076,N/A
+kmeans,export_import,North America,graph_2,4,0.559193222,0.472528147,68.05844741,N/A
+kmeans,export_import,South America,graph_2,4,0.468714581,0.454809342,40.03193957,N/A
+kmeans,export_import,Oceania,graph_2,4,0.672800306,0.204771217,141.7281135,N/A
+unnormalized_spec,foreign_inflow,World,graph_2,4,-0.303269285,1.081028474,1.914784687,8
+kmeans,hdi_rank,Asia,graph_2,4,0.562480946,0.477776205,190.3373596,N/A
+kmeans,hdi_rank,Africa,graph_2,4,0.535036016,0.531953924,180.6641889,N/A
+kmeans,hdi_rank,Europe,graph_2,4,0.589982573,0.434189477,178.0559217,N/A
+kmeans,hdi_rank,North America,graph_2,4,0.589075699,0.316051576,53.88693028,N/A
+kmeans,hdi_rank,South America,graph_2,4,0.636181911,0.385025891,97.50982009,N/A
+kmeans,hdi_rank,Oceania,graph_2,4,0.63047365,0.273620426,108.5133657,N/A
+dbscan,all,World,graph_2,4,0.286653702,1.74319958,19.23423852,N/A
+dbscan,all,Asia,graph_2,4,0.533108217,0.412006851,13.06012848,N/A
+dbscan,all,Africa,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,all,Europe,graph_2,4,0.273588482,1.531033932,8.527063651,N/A
+dbscan,all,North America,graph_2,4,0.226336482,1.414901454,7.300018183,N/A
+dbscan,all,South America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,all,Oceania,graph_2,4,0.357326159,1.189712294,5.480579055,N/A
+dbscan,remittance_inflow,World,graph_2,4,0.816982114,0.150068778,75.95738286,N/A
+dbscan,remittance_inflow,Asia,graph_2,4,0.773087502,0.192201691,78.19323807,N/A
+dbscan,remittance_inflow,Africa,graph_2,4,0.707148191,0.294057264,143.9109042,N/A
+dbscan,remittance_inflow,Europe,graph_2,4,0.76651477,0.313516827,160.7706754,N/A
+dbscan,remittance_inflow,North America,graph_2,4,0.605813634,0.199919546,154.2199687,N/A
+dbscan,remittance_inflow,South America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,remittance_inflow,Oceania,graph_2,4,0.484853225,0.633105299,7.502475891,N/A
+dbscan,priv_capital_flow,World,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,priv_capital_flow,Asia,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,priv_capital_flow,Africa,graph_2,4,0.701098498,0.359285721,22.37437124,N/A
+dbscan,priv_capital_flow,Europe,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,priv_capital_flow,North America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,priv_capital_flow,South America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,priv_capital_flow,Oceania,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,dev_assistance,World,graph_2,4,0.745726126,0.267506472,314.9858036,N/A
+dbscan,dev_assistance,Asia,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,dev_assistance,Africa,graph_2,4,0.716689673,0.206422678,38.74100312,N/A
+dbscan,dev_assistance,Europe,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,dev_assistance,North America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,dev_assistance,South America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,dev_assistance,Oceania,graph_2,4,0.757609965,0.290013518,157.3029374,N/A
+dbscan,foreign_inflow,World,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,foreign_inflow,Asia,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,foreign_inflow,Africa,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,foreign_inflow,Europe,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,foreign_inflow,North America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,foreign_inflow,South America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,foreign_inflow,Oceania,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,export_import,World,graph_2,4,0.603540313,0.414697123,142.7382036,N/A
+dbscan,export_import,Asia,graph_2,4,0.822407567,0.180411912,87.54949045,N/A
+dbscan,export_import,Africa,graph_2,4,0.592187845,0.78399678,66.79077663,N/A
+dbscan,export_import,Europe,graph_2,4,0.449012533,0.582703953,42.82315249,N/A
+dbscan,export_import,North America,graph_2,4,0.566247699,0.275019966,14.38771738,N/A
+dbscan,export_import,South America,graph_2,4,N/A,N/A,N/A,N/A
+dbscan,export_import,Oceania,graph_2,4,0.730618795,0.309846335,28.86380674,N/A
+dbscan,hdi_rank,World,graph_2,4,0.441837934,2.93141117,87.36086712,N/A
+dbscan,hdi_rank,Asia,graph_2,4,0.508082787,1.533921189,39.57372269,N/A
+dbscan,hdi_rank,Africa,graph_2,4,0.611554787,0.241981634,22.79434762,N/A
+dbscan,hdi_rank,Europe,graph_2,4,0.579526069,0.496185588,113.6304257,N/A
+dbscan,hdi_rank,North America,graph_2,4,0.577844519,0.25188681,38.18258347,N/A
+dbscan,hdi_rank,South America,graph_2,4,0.671157725,0.309500387,65.51803872,N/A
+dbscan,hdi_rank,Oceania,graph_2,4,0.606575274,0.219610728,29.99716436,N/A
+agglomerative,all,World,graph_2,4,0.274604805,1.230751453,89.37257208,N/A
+agglomerative,all,Asia,graph_2,4,0.344897182,0.939316278,26.75993504,N/A
+agglomerative,all,Africa,graph_2,4,0.250124452,1.031890747,24.76394699,N/A
+agglomerative,all,Europe,graph_2,4,0.338120783,0.489982432,26.25956306,N/A
+agglomerative,all,North America,graph_2,4,0.439769407,0.490657863,31.04778076,N/A
+agglomerative,all,South America,graph_2,4,0.47325569,0.506787225,26.92456274,N/A
+agglomerative,all,Oceania,graph_2,4,0.419241806,0.543473024,9.711087283,N/A
+agglomerative,remittance_inflow,World,graph_2,4,0.728874111,0.367764147,576.1794544,N/A
+agglomerative,remittance_inflow,Asia,graph_2,4,0.690373327,0.374462754,347.9158008,N/A
+agglomerative,remittance_inflow,Africa,graph_2,4,0.598648055,0.42288132,209.6816313,N/A
+agglomerative,remittance_inflow,Europe,graph_2,4,0.670312339,0.33340007,223.6108637,N/A
+agglomerative,remittance_inflow,North America,graph_2,4,0.641379331,0.348425476,118.7024823,N/A
+agglomerative,remittance_inflow,South America,graph_2,4,0.775121126,0.173678007,597.2598858,N/A
+agglomerative,remittance_inflow,Oceania,graph_2,4,0.620491445,0.266325816,141.8346194,N/A
+agglomerative,priv_capital_flow,World,graph_2,4,0.467995503,0.507742438,423.3727631,N/A
+agglomerative,priv_capital_flow,Asia,graph_2,4,0.619164708,0.515837404,126.5829357,N/A
+agglomerative,priv_capital_flow,Africa,graph_2,4,0.586238226,0.435300874,130.8512707,N/A
+agglomerative,priv_capital_flow,Europe,graph_2,4,0.542842282,0.455037508,218.4149006,N/A
+agglomerative,priv_capital_flow,North America,graph_2,4,0.613049053,0.41401814,80.32854404,N/A
+agglomerative,priv_capital_flow,South America,graph_2,4,0.499711153,0.219761875,347.25265,N/A
+agglomerative,priv_capital_flow,Oceania,graph_2,4,0.559063807,0.335987456,36.29184269,N/A
+agglomerative,dev_assistance,World,graph_2,4,0.636023662,0.492834883,811.3006683,N/A
+agglomerative,dev_assistance,Asia,graph_2,4,0.712807147,0.380560677,252.0051356,N/A
+agglomerative,dev_assistance,Africa,graph_2,4,0.521647272,0.520795415,175.0471427,N/A
+agglomerative,dev_assistance,Europe,graph_2,4,0.590524332,0.378468299,134.5155114,N/A
+agglomerative,dev_assistance,North America,graph_2,4,0.667070039,0.215288856,187.1438822,N/A
+agglomerative,dev_assistance,South America,graph_2,4,0.651638793,0.154701994,486.0654364,N/A
+agglomerative,dev_assistance,Oceania,graph_2,4,0.757609965,0.290013518,157.3029374,N/A
+agglomerative,foreign_inflow,World,graph_2,4,0.844344758,0.103847571,7389.23785,N/A
+agglomerative,foreign_inflow,Asia,graph_2,4,0.661866381,0.292234831,174.6161449,N/A
+agglomerative,foreign_inflow,Africa,graph_2,4,0.548107629,0.393216137,282.6903368,N/A
+agglomerative,foreign_inflow,Europe,graph_2,4,0.787108995,0.059330319,4815.220676,N/A
+agglomerative,foreign_inflow,North America,graph_2,4,0.673186506,0.200976775,79.95435807,N/A
+agglomerative,foreign_inflow,South America,graph_2,4,0.508520846,0.303463602,669.4108142,N/A
+agglomerative,foreign_inflow,Oceania,graph_2,4,0.521227587,0.353407879,41.02892526,N/A
+agglomerative,export_import,World,graph_2,4,0.575074805,0.49895954,409.3549731,N/A
+agglomerative,export_import,Asia,graph_2,4,0.552323585,0.481573986,196.9700427,N/A
+agglomerative,export_import,Africa,graph_2,4,0.544729654,0.372134532,185.193566,N/A
+agglomerative,export_import,Europe,graph_2,4,0.576879382,0.331797353,112.1619152,N/A
+agglomerative,export_import,North America,graph_2,4,0.559193222,0.472528147,68.05844741,N/A
+agglomerative,export_import,South America,graph_2,4,0.522615822,0.366687985,29.50611733,N/A
+agglomerative,export_import,Oceania,graph_2,4,0.672800306,0.204771217,141.7281135,N/A
+agglomerative,hdi_rank,World,graph_2,4,0.532607909,0.50047015,763.2655947,N/A
+agglomerative,hdi_rank,Asia,graph_2,4,0.497203977,0.48896677,147.6165967,N/A
+agglomerative,hdi_rank,Africa,graph_2,4,0.549230458,0.531232088,194.1030729,N/A
+agglomerative,hdi_rank,Europe,graph_2,4,0.569113253,0.410061657,158.9759353,N/A
+agglomerative,hdi_rank,North America,graph_2,4,0.632617032,0.403972147,69.19477994,N/A
+agglomerative,hdi_rank,South America,graph_2,4,0.636181911,0.385025891,97.50982009,N/A
+agglomerative,hdi_rank,Oceania,graph_2,4,0.63047365,0.273620426,108.5133657,N/A
