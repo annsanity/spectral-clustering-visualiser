@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: #f0f0f0;
+}
+
+
+#app {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 0.1);
+    overflow: auto;
+}
+
+.user-controls {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: fit-content;
+    margin-top: 49px;
+}
+
+.output h1 {
+    margin: 3px 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.control-panel label {
+    font-weight: bold;
+}
+
+.control-panel select,
+.control-panel input,
+.control-panel button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#metrics {
+    display: flex;
+    flex-direction: column;
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.output {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+    
+#visualizer {
+    margin: 5px 1px;
+    width: calc(100% - 10);
+    flex: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: None;
+    overflow: auto;
+}

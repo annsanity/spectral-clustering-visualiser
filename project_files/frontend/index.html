@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clustering Visualiser</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="user-controls">
+            <div class="control-panel">
+                <div>
+                    <label for="algorithm">Select Clustering Algorithm</label>
+                    <select id="algorithm">
+                        <option value="agglomerative">Agglomerative Clustering</option>
+                        <option value="dbscan">DBSCAN</option>
+                        <option value="kmeans">K-Means</option>
+                        <option value="normalized_spec_ngjordanweiss">Normalized spectral clustering according to Ng, Jordan, and Weiss (2002)</option>
+                        <option value="normalized_spec_shimalik">Normalized spectral clustering according to Shi and Malik (2000)</option>
+                        <option value="unnormalized_spec">Unnormalized Spectral Clustering</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="attribute">Select Feature for Edges</label>
+                    <select id="attribute">
+                        <option value="hdi_rank">HDI Rank</option>
+                        <option value="export_import">Export_Import</option>
+                        <option value="foreign_inflow">Foreign_Inflow</option>
+                        <option value="dev_assistance">Dev_Assistance</option>
+                        <option value="priv_capital_flow">Priv_Capital_Flow</option>
+                        <option value="remittance_inflow">Remittance_Inflow</option>
+                        <option value="all">All</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="region">Region</label>
+                    <select id="region" onchange="updateMaxClusters()">
+                        <option value="World">World</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Africa">Africa</option>
+                        <option value="North America">North America</option>
+                        <option value="South America">South America</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Oceania">Oceania</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="visual_type">Visual Type</label>
+                    <select id="visual_type">
+                        <option value="world_map">Map</option>
+                        <option value="graph_2">Graph</option>
+                </div>
+                <div>
+                    <label for="num-clusters">Select number of clusters</label>
+                    <input type="range" id="num_clusters" min="2" max="50" value="5" oninput="updateClusterCountDisplay()">
+                    <span id="num-clusters-display">Number of Clusters: 5 </span>
+                </div>
+            </div>
+            <div class="controls">
+                <button type="button" onclick="loading(); runClustering()">Run Clustering</button>
+            </div>
+            <div id="metrics">
+                <p>Silhouette Score: <span id="silhouette-score"></span></p>
+                <p>Davies-Bouldin Index: <span id="davies-bouldin"></span></p>
+                <p>Calinski-Harabasz Index: <span id="calinski-harabasz"></span></p>
+                <p>Optimal Clusters: <span id="optimal-clusters"></span></p>
+            </div>
+        </div>
+        <div class="output">
+            <h1>Clustering Visualiser</h1>
+            <div id="visualizer">
+            </div>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([20, 0], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    </script>
+</body>
+</html>
