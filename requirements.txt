@@ -28,6 +28,7 @@ geographiclib==2.0
 geojson==3.1.0
 geopandas==1.0.1
 geopy==2.4.1
+gunicorn==23.0.0
 h11==0.14.0
 idna==3.7
 itsdangerous==2.2.0
