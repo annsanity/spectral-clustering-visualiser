@@ -1,6 +1,8 @@
 # Importing necessary libraries
 from flask import Flask, request, jsonify
 from flask_cors import CORS 
+# Add the backend directory to the Python path
+sys.path.append(os.path.join(os.path.dirname(__file__), 'backend'))
 from backend.algorithms import (
     agglomerative,
     dbscan,
