@@ -1,7 +1,14 @@
 # Importing necessary libraries
 from flask import Flask, request, jsonify
 from flask_cors import CORS 
-from backend.algorithms import agglomerative, dbscan, kmeans, normalized_spec_ngjordanweiss, normalized_spec_shimalik, unnormalized_spec
+from backend.algorithms import (
+    agglomerative,
+    dbscan,
+    kmeans,
+    normalized_spec_ngjordanweiss,
+    normalized_spec_shimalik,
+    unnormalized_spec
+)
 import plotly.io as pio
 
 # Create a Flask instance
