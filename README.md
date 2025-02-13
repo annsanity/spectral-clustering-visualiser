@@ -1,6 +1,8 @@
 # spectral-clustering-visualiser
 Web based visualiser to visualise the output of spectral clustering on trade data and compare them against traditional clustering algorithms like k-means, dbscan etc.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Tech Stack
 <div display="flex">
   <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -16,3 +18,6 @@ Web based visualiser to visualise the output of spectral clustering on trade dat
   <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly"/>
   <img src="https://img.shields.io/badge/Folium-%23777BB4.svg?style=for-the-badge&logo=python&logoColor=white" alt="Folium"/>
 </div>
+
+# License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
