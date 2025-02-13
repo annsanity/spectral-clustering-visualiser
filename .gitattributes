@@ -1,0 +1,4 @@
+*.html linguist-documentation
+static/* linguist-vendored
+*.js linguist-detectable=true
+*.py linguist-detectable=true
