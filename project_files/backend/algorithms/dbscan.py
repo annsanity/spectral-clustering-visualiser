@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_harabasz_score 
 import geopandas as gpd
 import numpy as np
-from algorithms.visualise import visualize_clusters_on_map, visualize_traditional_clustering, filter_countries_by_region
+from project_files.backend.algorithms.visualise  import visualize_clusters_on_map, visualize_traditional_clustering, filter_countries_by_region
 from sklearn.neighbors import kneighbors_graph
 from sklearn.metrics import pairwise_distances
 
