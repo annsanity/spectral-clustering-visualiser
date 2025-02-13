@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         console.log('Number of clusters and algorithm', numClustersValue , algorithmValue);
 
-        fetch('http://localhost:5000/api/clustering', {
+        fetch('/api/clustering', {
             method: 'POST',
             body: JSON.stringify({
                 algorithm: algorithmValue,
