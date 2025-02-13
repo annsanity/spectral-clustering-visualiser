@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_harabasz_score 
 import numpy as np
 import geopandas as gpd
-from algorithms.visualise import visualize_clusters_on_map, visualize_traditional_clustering, create_adjacency_matrix
+from project_files.backend.algorithms.visualise import visualize_clusters_on_map, visualize_traditional_clustering, create_adjacency_matrix
 from sklearn.neighbors import kneighbors_graph
 
 def clustering(num_clusters, similairty_attribute, graph, region):
