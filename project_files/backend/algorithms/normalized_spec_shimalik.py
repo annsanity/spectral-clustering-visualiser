@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_harabasz_score
 from sklearn.neighbors import kneighbors_graph 
 import geopandas as gpd
-from algorithms.visualise import visualize_clusters_on_map, visualize_graph2, create_adjacency_matrix
+from project_files.backend.algorithms.visualise import visualize_clusters_on_map, visualize_graph2, create_adjacency_matrix
 
 def clustering(num_clusters, similairty_attribute, graph, region):
 
