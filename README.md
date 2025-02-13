@@ -1,5 +1,5 @@
 # spectral-clustering-visualiser
-Web based visualiser to visualise the output of spectral clustering on trade data.
+Web based visualiser to visualise the output of spectral clustering on trade data and compare them against traditional clustering algorithms like k-means, dbscan etc.
 
 # Tech Stack
 <div display="flex">
