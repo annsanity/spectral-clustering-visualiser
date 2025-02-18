@@ -16,8 +16,11 @@ from project_files.backend.algorithms import (
     unnormalized_spec
 )
 
+# Get the absolute path to the 'frontend' folder
+template_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'frontend')
+
 # Initialize the Flask app, telling it to use the 'frontend' folder for templates
-app = Flask(__name__, template_folder='frontend')
+app = Flask(__name__, template_folder=template_dir)
 
 CORS(app)
 
@@ -25,6 +28,11 @@ CORS(app)
 @app.route('/')
 def index():
     return render_template('index.html')
+
+print("Looking for templates in:", template_dir)  # This will print the absolute path in your logs
+
+# Optional: List files in the template directory for debugging
+print("Files in template directory:", os.listdir(template_dir))
 
 # Endpoint for the clustering API
 @app.route('/api/clustering', methods=['POST'])
