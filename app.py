@@ -1,8 +1,9 @@
 # Importing necessary libraries
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS 
 import sys
 import os
+import plotly.io as pio
 
 # Add the backend directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'backend'))
@@ -14,11 +15,16 @@ from project_files.backend.algorithms import (
     normalized_spec_shimalik,
     unnormalized_spec
 )
-import plotly.io as pio
 
-# Create a Flask instance
-app = Flask(__name__)
+# Initialize the Flask app, telling it to use the 'frontend' folder for templates
+app = Flask(__name__, template_folder='frontend')
+
 CORS(app)
+
+# Define a route to serve your index.html
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 # Endpoint for the clustering API
 @app.route('/api/clustering', methods=['POST'])
@@ -58,9 +64,6 @@ def clustering():
 
     return response
     
-@app.route("/")
-def home():
-    return "Flask ML App is running!", 200
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
