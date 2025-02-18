@@ -16,10 +16,9 @@ from project_files.backend.algorithms import (
     unnormalized_spec
 )
 
-# Get the absolute path to the 'frontend' folder
-template_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'frontend')
+template_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'project_files', 'frontend')
+print("Template directory:", template_dir)  # For debugging, check logs
 
-# Initialize the Flask app, telling it to use the 'frontend' folder for templates
 app = Flask(__name__, template_folder=template_dir)
 
 CORS(app)
