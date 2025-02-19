@@ -7,6 +7,12 @@ from sklearn.neighbors import kneighbors_graph
 import numpy as np
 from project_files.backend.algorithms.visualise import visualize_clusters_on_map, visualize_traditional_clustering, create_adjacency_matrix
 
+import os
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+shp_path = os.path.join(base_dir, "project_files", "backend", "ne_110m_admin_0_countries", "ne_110m_admin_0_countries.shp")
+print("Shapefile path:", shp_path)
+
 def clustering(num_clusters, similairty_attribute, graph, region):
 
     fig = None
@@ -18,7 +24,7 @@ def clustering(num_clusters, similairty_attribute, graph, region):
 
     # Read the shapefile
     shapefile_path = r"project_files\backend\ne_110m_admin_0_countries\ne_110m_admin_0_countries.shp"
-    world = gpd.read_file(shapefile_path)
+    world = gpd.read_file(shp_path)
     world = world[['NAME', 'geometry']]
     world = world.sort_values(by='NAME')
 
