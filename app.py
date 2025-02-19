@@ -28,9 +28,6 @@ CORS(app)
 def index():
     return render_template('index.html')
 
-# Optional: List files in the template directory for debugging
-print("Files in template directory:", os.listdir(template_dir))
-
 # Endpoint for the clustering API
 @app.route('/api/clustering', methods=['POST'])
 def clustering():
