@@ -28,8 +28,6 @@ CORS(app)
 def index():
     return render_template('index.html')
 
-print("Looking for templates in:", template_dir)  # This will print the absolute path in your logs
-
 # Optional: List files in the template directory for debugging
 print("Files in template directory:", os.listdir(template_dir))
 
