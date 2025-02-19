@@ -9,8 +9,12 @@ from project_files.backend.algorithms.visualise import visualize_clusters_on_map
 
 import os
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
-shp_path = os.path.join(base_dir, "ne_110m_admin_0_countries", "ne_110m_admin_0_countries.shp")
+# __file__ is in backend/algorithms, so get its parent directory (which is 'algorithms')
+algorithms_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Then, go one level up to get the backend directory
+backend_dir = os.path.dirname(algorithms_dir)
+shp_path = os.path.join(backend_dir, "ne_110m_admin_0_countries", "ne_110m_admin_0_countries.shp")
 print("Shapefile path:", shp_path)
 
 def clustering(num_clusters, similairty_attribute, graph, region):
