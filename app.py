@@ -16,10 +16,10 @@ from project_files.backend.algorithms import (
     unnormalized_spec
 )
 
-template_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'project_files', 'frontend')
+frontend_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'project_files', 'frontend')
 print("Template directory:", template_dir)  # For debugging, check logs
 
-app = Flask(__name__, template_folder=template_dir)
+app = Flask(__name__, template_folder=frontend_dir, static_folder=frontend_dir, static_url_path='')
 
 CORS(app)
 
